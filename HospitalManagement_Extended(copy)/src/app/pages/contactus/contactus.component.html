@@ -1,0 +1,47 @@
+<div id="imgdiv"> 
+	<img src="../assets/images/about1.jpg" style="height: 475px;width: 1250; align-self: center; ">
+</div>
+
+<div class="feature-content mt-5">
+	<h2 class="display-4">Contact Us</h2>
+	<p class="header mt-4" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">LifeCare Hospitals is always looking to make things easier for you.
+		Our aim is to provide our customers with the best medical facilities, constant care, 
+		and reliable support. If you would like to get in touch with a doctor from a specific department,
+		would like some specific information about the services we provide, or just have a question for us,
+		please fill up the Form given below and we will get back to you.
+	</p>
+</div>
+	
+<div class="d-inline-block w-50  my-10 "> <!--form-->
+
+	<form action="post" [formGroup]="enquiry" (ngSubmit)="ask()" id="enquiry-form" >
+		<label for="FirstName">First Name<span class="asterick">&ast;</span></label>
+		<input class="form-control" type="text" formControlName="FirstName" placeholder="Enter your first name" required><br>
+							
+		<label for="LastName">Last Name<span class="asterick">&ast;</span></label>
+		<input class="form-control" type="text" formControlName="LastName" placeholder="Enter your last name" required><br>
+		
+		<label for="MobileNo">Mobile No</label>
+		<input class="form-control" type="text" formControlName="MobileNo" placeholder="Enter your 10 digit mobile number(optional)" pattern="[0-9]{10}"><br>
+		
+		<label for="Email">Email Address<span class="asterick">&ast;</span></label>
+		<input class="form-control" type="email" formControlName="Email" id="email" placeholder="Example: abc@xyz.com" required><br>
+
+		<label for="Message">Message<span class="asterick">&ast;</span></label>
+		<textarea class="form-control" formControlName="Message" id="message" cols="20" rows="2" required></textarea><br>
+
+	<button class="btn btn-primary btn-block" type="submit">Submit</button>
+		
+	</form>
+</div>
+
+<div class="d-inline float-right">
+	<img src="../assets/images/contact2.jpg" height="400px" width="400px" 
+	style="display: left; margin-inline-end: 70px; margin-top: 50px;">
+</div>
+
+
+
+
+
+

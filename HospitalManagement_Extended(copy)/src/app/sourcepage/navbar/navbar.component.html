@@ -1,0 +1,31 @@
+  <!-- NAVIGATION BAR -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3 p-4">
+    <div class="container">
+        <a class="navbar-brand" routerLink=""><strong>LifeCare</strong> Hospital </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="aboutus" routerLinkActive="active">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a  class="nav-link dropdown-toggle" data-toggle="dropdown">Patient</a>
+                    <div class="dropdown-menu">
+                        <a routerLink="book-aptmt" routerLinkActive="active" class="dropdown-item">Book Appointment</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="doctors" routerLinkActive="active">Doctors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="contactus" routerLinkActive="active">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

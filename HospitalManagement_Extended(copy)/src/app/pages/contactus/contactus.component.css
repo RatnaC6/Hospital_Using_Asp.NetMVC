@@ -1,0 +1,129 @@
+.html{ 
+    font-family: 'Times New Roman', Times, serif;
+}  
+.body{
+    background-color: white;
+   
+}
+.img{
+    max-width: 100%;
+    border: 0 none;
+    display: block;
+    vertical-align: middle;
+    float: left;
+}
+
+.feature-section{
+    padding-top: 80px;
+}
+.feature-section-title{
+    width: 70%;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.5em;
+    margin: auto;
+    
+}
+.feature-content{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: auto;
+    padding: 20px;
+    
+}
+.feature-content .feature-content-inner{
+    margin: 0% auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.feature-content .col-3 img{
+    width: 110%;
+    height: 100%;
+}
+.feature-content .col-3 p{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-style: bold;
+}
+.feature-content col-3{
+    padding: 10px;
+    
+}
+.header{
+    height: 80px;
+    background-color: aliceblue;
+}
+#header-container{
+    height: 500px;
+    clear: both;
+    border: none;
+}
+.h2{
+    text-align: center;
+}
+.col-2{
+    float: left;
+    
+}
+#showcase1-container{
+    padding-top:30px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 550px;
+    clear: both;
+    background-color: goldenrod
+}
+#showcase2-container{
+    padding-top:30px;
+    width: 100%;
+    height: 550px;
+    clear: both;
+    background-color: goldenrod;
+}
+.showcase1pic{
+    padding-top:-110%;
+}
+.section-title{
+    float: left;
+    padding-left: 370%;
+    text-align:center;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.section-left{
+    float: left;
+    padding-left: 300%;
+    width: 550%;
+    text-align:justify;
+   
+}
+.col-3{
+    float: left;
+}
+.showcase2pic{
+    float: left;
+    padding-left: 180%;
+}
+.section-right{
+    float: right;
+    padding-left: 280%;
+    width: 550%;
+    text-align: justify;
+}
+.header{
+text-align: center;
+background-color: #fff;
+
+}
+
+/* #imgdiv{
+    height: 500px;
+    width: fit-content;
+    display: inline;
+} */
+

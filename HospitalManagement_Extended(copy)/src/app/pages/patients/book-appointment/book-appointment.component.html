@@ -1,0 +1,161 @@
+<h3 class="text-center display-4 pt-4">Book Appointment</h3>
+
+<form action="post" [formGroup]="bookAppointment" (ngSubmit)="addPatient()" id="bookAppointment">
+
+    <table class="table table-hover float-center">
+    <tr class="form-group">
+        <td>
+            <label for="pFirstName">First Name<span class="asterick">&ast;</span></label>
+        </td>
+        <td>
+            <input class="form-control" type="text" required formControlName="FirstName"  placeholder="Enter your first name" >
+            
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="pLastName">Last Name<span class="asterick">&ast;</span></label>
+        </td>
+        <td>
+            <input class="form-control" type="text" formControlName="LastName" placeholder="Enter your last name" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="gender">Gender<span class="asterick">&ast;</span></label>
+        </td>
+        <td>
+            <select class="form-control" formControlName="Gender" id="gender" required>
+                <option selected disabled>Select One</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="address">Address<span class="asterick">&ast;</span></label>
+        </td>
+        <td>
+            <textarea class="form-control" formControlName="Address" id="address" cols="30" rows="6" required></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="mobile">Mobile No.<span class="asterick">&ast;</span></label>
+        </td>
+        <td>
+            <input class="form-control" type="tel" formControlName="MobileNo" id="mobile" pattern="[0-9]{10}" placeholder="Enter your 10-digit mobile no." required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="email">Email Address<span class="asterick">&ast;</span></label>
+        </td>
+        <td>
+            <input class="form-control" type="email" formControlName="Email" id="email" placeholder="Example: abc@xyz.com" required>
+        </td>
+    </tr>
+    <tr class="form-group">
+        <td>
+            <label for="doctorName">Speciality<span class="asterick">&ast;</span></label>
+        </td>
+        <td>
+            <select name="speciality" id="speciality" class="form-control" formControlName="Speciality" [(ngModel)]="selectedSpeciality" (change)="getSpecDoc()" required>
+                <option disabled selected>Select One</option>
+                <option [value]="doctor.dSpeciality"  *ngFor="let doctor of doctors">
+                    {{doctor.dSpeciality}}
+                </option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="speciality">Doctor Name<span class="asterick">&ast;</span></label>
+        </td>
+        <td>
+            <select name="doctorName" id="doctorName" class="form-control" formControlName="DoctorName" *ngIf="selectedSpeciality" required>
+                <option disabled selected>Select One</option>
+                <option *ngFor="let specdoctor of specDocs" [value]="specdoctor">{{specdoctor}}</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="apt-date">Appointment Date<span class="asterick">&ast;</span></label>
+        </td>
+        <td>
+            <input class="form-control" type="date" formControlName="AppointmentDate" min="2022-01-01" max="*" required ngModel="string">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="apt-time">Appointment Time<span class="asterick">&ast;</span></label>
+        </td>
+        <td>
+            <input class="form-control" type="time" formControlName="AppointmentTime" min="09:00" max="19:00" required>
+        </td>
+    </tr>
+    <tr>
+       <td>
+           <button class="btn btn-secondary float-right" type="reset">Reset</button>
+        </td> 
+        <td>
+
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </td>
+    </tr>
+    </table>
+</form>
+
+<!--GETTING THE APPOINTMENT DETAILS FROM DB THROUGH GET METHOD -->
+<!-- <div >
+    <div *ngFor="let patientDetail of bookedApt">
+        <p>
+           Name:{{patientDetail.FirstName}} 
+        </p>
+        <p>
+            Last name:{{patientDetail.LastName}} 
+         </p>
+         <p>
+            Mobile:{{patientDetail.MobileNo}} 
+         </p>
+        <p>
+            Appointment date:{{patientDetail.AppointmentDate}}
+        </p>
+        <p>
+            Appointment Time:{{patientDetail.AppointmentTime}}
+        </p>
+    </div>
+</div> -->
+
+<!-- <tbody>
+    <tr *ngFor ="let item of bookedApt"> 
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.firstName}}</td>
+        <td>{{item.lastName}}</td>
+        <td>{{item.mobileNo}}</td>
+</tbody> -->
+
+
+
+<!-- <div>
+    <div>
+        <p>
+           Name:{{details.firstName}} 
+        </p>
+        <p>
+            Last name:{{details.lastName}} 
+         </p>
+         <p>
+            Mobile:{{details.doctorName}} 
+         </p>
+        <p>
+            Appointment date:{{details.aptdate}}
+        </p>
+        <p>
+            Appointment Time:{{details.apttime}}
+        </p>
+    </div>
+</div> -->

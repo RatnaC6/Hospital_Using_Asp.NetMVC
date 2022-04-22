@@ -1,0 +1,42 @@
+
+
+#content-part{
+    padding-top: 30px;
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+    padding-bottom: 4%;
+
+}
+.findadoctor-inner{
+    width: 80%;
+    margin: auto;
+
+}
+.findadoctor-box{
+    width: 80%;
+    margin: auto;
+    float: auto;
+    padding-top: 2%;
+}
+.talent-left{
+    float: left;
+    padding-right: 10%;
+    
+}
+.talent-right{
+    width: 100%;
+    padding-left: 70px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-weight: 500;
+    
+}
+.doc-title{
+    color: red;
+       
+}
+.doc-qua{
+    color: #144364;
+}
+
