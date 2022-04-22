@@ -1,0 +1,12 @@
+D:\Case study two\LifeCareHospital\LifeCareHospital.Models\bin\Debug\netcoreapp3.1\LifeCareHospital.Models.deps.json
+D:\Case study two\LifeCareHospital\LifeCareHospital.Models\bin\Debug\netcoreapp3.1\LifeCareHospital.Models.runtimeconfig.json
+D:\Case study two\LifeCareHospital\LifeCareHospital.Models\bin\Debug\netcoreapp3.1\LifeCareHospital.Models.runtimeconfig.dev.json
+D:\Case study two\LifeCareHospital\LifeCareHospital.Models\bin\Debug\netcoreapp3.1\LifeCareHospital.Models.dll
+D:\Case study two\LifeCareHospital\LifeCareHospital.Models\bin\Debug\netcoreapp3.1\LifeCareHospital.Models.pdb
+D:\Case study two\LifeCareHospital\LifeCareHospital.Models\obj\Debug\netcoreapp3.1\LifeCareHospital.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Case study two\LifeCareHospital\LifeCareHospital.Models\obj\Debug\netcoreapp3.1\LifeCareHospital.Models.AssemblyInfoInputs.cache
+D:\Case study two\LifeCareHospital\LifeCareHospital.Models\obj\Debug\netcoreapp3.1\LifeCareHospital.Models.AssemblyInfo.cs
+D:\Case study two\LifeCareHospital\LifeCareHospital.Models\obj\Debug\netcoreapp3.1\LifeCareHospital.Models.csproj.CoreCompileInputs.cache
+D:\Case study two\LifeCareHospital\LifeCareHospital.Models\obj\Debug\netcoreapp3.1\LifeCareHospital.Models.dll
+D:\Case study two\LifeCareHospital\LifeCareHospital.Models\obj\Debug\netcoreapp3.1\LifeCareHospital.Models.pdb
+D:\Case study two\LifeCareHospital\LifeCareHospital.Models\obj\Debug\netcoreapp3.1\LifeCareHospital.Models.genruntimeconfig.cache

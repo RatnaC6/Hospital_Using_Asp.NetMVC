@@ -1,0 +1,12 @@
+D:\Case study two\LifeCareHospital\Hospital.Models\bin\Debug\netcoreapp3.1\Hospital.Models.deps.json
+D:\Case study two\LifeCareHospital\Hospital.Models\bin\Debug\netcoreapp3.1\Hospital.Models.runtimeconfig.json
+D:\Case study two\LifeCareHospital\Hospital.Models\bin\Debug\netcoreapp3.1\Hospital.Models.runtimeconfig.dev.json
+D:\Case study two\LifeCareHospital\Hospital.Models\bin\Debug\netcoreapp3.1\Hospital.Models.dll
+D:\Case study two\LifeCareHospital\Hospital.Models\bin\Debug\netcoreapp3.1\Hospital.Models.pdb
+D:\Case study two\LifeCareHospital\Hospital.Models\obj\Debug\netcoreapp3.1\Hospital.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Case study two\LifeCareHospital\Hospital.Models\obj\Debug\netcoreapp3.1\Hospital.Models.AssemblyInfoInputs.cache
+D:\Case study two\LifeCareHospital\Hospital.Models\obj\Debug\netcoreapp3.1\Hospital.Models.AssemblyInfo.cs
+D:\Case study two\LifeCareHospital\Hospital.Models\obj\Debug\netcoreapp3.1\Hospital.Models.csproj.CoreCompileInputs.cache
+D:\Case study two\LifeCareHospital\Hospital.Models\obj\Debug\netcoreapp3.1\Hospital.Models.dll
+D:\Case study two\LifeCareHospital\Hospital.Models\obj\Debug\netcoreapp3.1\Hospital.Models.pdb
+D:\Case study two\LifeCareHospital\Hospital.Models\obj\Debug\netcoreapp3.1\Hospital.Models.genruntimeconfig.cache
